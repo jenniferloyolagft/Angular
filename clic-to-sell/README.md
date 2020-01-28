@@ -1,5 +1,6 @@
 # clic-to-sell
-Proyecto creado para clic-to-sell Santander México. Generado con [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+Proyecto creado para clic-to-sell Santander México.<br>
+Generado con [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.<br>
 Este proyecto muestra mis razas favoritas de perros, incluyendo chatos, con pelo largo, colas cortas, etcétera.
 ![barkbark](https://media.giphy.com/media/l41YbcuvFhMPY0TWU/giphy.gif)
 
