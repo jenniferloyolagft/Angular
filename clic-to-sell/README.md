@@ -1,6 +1,12 @@
-# ClicToSell
+# clic-to-sell
+Proyecto creado para clic-to-sell Santander México. Generado con [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+Este proyecto muestra mis razas favoritas de perros, incluyendo chatos, con pelo largo, colas cortas, etcétera.
+![barkbark](https://media.giphy.com/media/l41YbcuvFhMPY0TWU/giphy.gif)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+## Para empezar!
+
+Clona el proyecto en tu carpeta de preferencia, recomiendo que sea en una carpeta `dev` donde solo estén proyectos de esta índole.
+En mi repositorio encontrarás la carpeta [Angular]https://github.com/jenniferloyolagft/Angular en la cual tienes tres opciones para descargar el proyecto, si tienes alguna duda de cuál opción elegir este [link] https://help.github.com/en/github/using-git/which-remote-url-should-i-use te será de mucha ayuda 
 
 ## Development server
 
