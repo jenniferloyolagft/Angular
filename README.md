@@ -1,2 +1,2 @@
-# Angular
-Proyecto para clic-to-sell
+# Angular 
+Proyectos desarrollados con el framework Angular `https://angular.io/`
