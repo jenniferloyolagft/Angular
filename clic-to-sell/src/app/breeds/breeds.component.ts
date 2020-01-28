@@ -1,6 +1,6 @@
 import { Breed } from './../breed';
 import { Component, OnInit } from '@angular/core';
-import { MOCK_BREEDS } from './../mock-breeds';
+import { BreedService } from './../services/breed.service';
 
 @Component({
   selector: 'app-breeds',
@@ -9,16 +9,25 @@ import { MOCK_BREEDS } from './../mock-breeds';
 })
 export class BreedsComponent implements OnInit {
 
-  breeds = MOCK_BREEDS;
+  breeds = Breed[''];
   selectedBreed: Breed;
 
-  constructor() { }
+  constructor(
+    private breedService: BreedService
+  ) { }
 
-  ngOnInit() { }
-
+  ngOnInit() {
+    this.getBreeds();
+   }
 
   onSelect(breed: Breed): void {
     console.log(breed);
     this.selectedBreed = breed;
+  }
+
+  getBreeds(): void {
+    this.breedService.getBreeds().subscribe((breeds: any) => {
+      this.breeds = breeds;
+    });
   }
 }

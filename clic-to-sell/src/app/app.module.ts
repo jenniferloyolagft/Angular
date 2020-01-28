@@ -4,15 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BreedsComponent } from './breeds/breeds.component';
-import { FurPipe } from './fur.pipe';
-import { NosePipe } from './nose.pipe';
+import { FurPipe } from './pipes/fur.pipe';
+import { NosePipe } from './pipes/nose.pipe';
+import { BreedDetailComponent } from './breed-detail/breed-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BreedsComponent,
     FurPipe,
-    NosePipe
+    NosePipe,
+    BreedDetailComponent
   ],
   imports: [
     BrowserModule,
