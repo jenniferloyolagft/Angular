@@ -6,7 +6,7 @@ Este proyecto muestra mis razas favoritas de perros, incluyendo chatos, con pelo
 ## Para empezar!
 
 Clona el proyecto en tu carpeta de preferencia, recomiendo que sea en una carpeta `dev` donde solo estén proyectos de esta índole.
-En mi repositorio encontrarás la carpeta [Angular](https://github.com/jenniferloyolagft/Angular en la cual tienes) tres opciones para descargar el proyecto, si tienes alguna duda de cuál opción elegir este [link](https://help.github.com/en/github/using-git/which-remote-url-should-i-use) te será de mucha ayuda 
+En mi repositorio encontrarás la carpeta [Angular](https://github.com/jenniferloyolagft/Angular) en la cual tienes tres opciones para descargar el proyecto, si tienes alguna duda de cuál opción elegir este [link](https://help.github.com/en/github/using-git/which-remote-url-should-i-use) te será de mucha ayuda 
 
 ## Development server
 
