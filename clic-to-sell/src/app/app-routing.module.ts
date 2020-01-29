@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { BreedsComponent } from './breeds/breeds.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/breeds', pathMatch: 'full' },
   { path: 'breeds', component: BreedsComponent }
 ];
 @NgModule({
