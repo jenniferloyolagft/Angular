@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Breed } from './../breed';
-
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+import { BreedService } from './../services/breed.service';
 @Component({
   selector: 'app-breed-detail',
   templateUrl: './breed-detail.component.html',
@@ -8,11 +10,26 @@ import { Breed } from './../breed';
 })
 
 export class BreedDetailComponent implements OnInit {
-  @Input() breed: Breed;
+  breed: Breed;
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+    private breedService: BreedService,
+    private location: Location
+  ) {}
 
   ngOnInit() {
+    this.getBreed();
   }
 
+  getBreed() {
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.breedService.getBreed(id).subscribe((breed) => {
+      this.breed = breed;
+    });
+  }
+
+  goBack(): void {
+    this.location.back();
+  }
 }

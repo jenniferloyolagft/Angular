@@ -20,11 +20,6 @@ export class BreedsComponent implements OnInit {
     this.getBreeds();
    }
 
-  onSelect(breed: Breed): void {
-    console.log(breed);
-    this.selectedBreed = breed;
-  }
-
   getBreeds(): void {
     this.breedService.getBreeds().subscribe((breeds: any) => {
       this.breeds = breeds;
