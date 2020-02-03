@@ -21,4 +21,8 @@ export class BreedService {
   getBreeds(): Observable<Breed[]> {
     return of(MOCK_BREEDS);
   }
+
+  getBreed(id: number): Observable<Breed> {
+    return of(MOCK_BREEDS.find((breed) => breed.id === id ));
+  }
 }
